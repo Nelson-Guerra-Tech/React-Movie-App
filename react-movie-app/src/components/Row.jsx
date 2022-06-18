@@ -57,9 +57,7 @@ export default function Row({ title, fetchURL, isLargeRow }) {
             key={movie.id}
             onClick={() => handleClick(movie)}
             className={`row_poster ${isLargeRow && 'row_posterLarge'}`}
-            src={`${baseURL}${
-              isLargeRow ? movie.poster_path : movie.backdrop_path
-            }`}
+            src={`${baseURL}${movie.poster_path}`}
             alt={movie.name}
           />
         ))}
