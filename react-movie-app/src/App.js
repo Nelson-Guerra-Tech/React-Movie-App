@@ -3,14 +3,14 @@ import axios from 'axios';
 import requests from './request';
 import Row from './components/Row';
 import Banner from './components/Banner';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   // app
   return (
     <div className='app'>
-      {/* Navbar */}
-      {/* Banner */}
+      <Navbar />
       <Banner />
       <Row
         title='NETFLIX ORIGINALS'
