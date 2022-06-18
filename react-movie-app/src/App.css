@@ -7,10 +7,11 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 100%;
+.app {
+  background-color: #111;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
 }
