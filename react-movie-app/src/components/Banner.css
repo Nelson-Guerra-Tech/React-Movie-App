@@ -54,5 +54,14 @@
     rgba(37, 37, 37, 0.67),
     #111
   );
-  margin-top: 8.7rem;
+  margin-top: 8.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .banner_content {
+    margin-left: 1rem;
+  }
+  .banner_title {
+    font-size: 2rem;
+  }
 }
