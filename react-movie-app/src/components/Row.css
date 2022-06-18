@@ -1,0 +1,40 @@
+.row {
+  margin-left: 20px;
+}
+
+.row_posters {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  /* to make the images stay within the body, add a scrollbar */
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+/* tell all broswers to display none on scrollbar */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  width: 100%;
+  /* keeps the image aspect ration the same */
+  object-fit: contain;
+  max-height: 100px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.08);
+}
