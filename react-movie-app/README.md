@@ -4,7 +4,7 @@
   <h1 align="center">Github API User Finder ✨</h1>
 
   <p align="center">
-    It is a React Github Finder application that uses Auth0 as the backend for the user authentication, and the Github API to fetch data about users. Users can sign-up by email or they can sign-in with Google. Site URL / Demo: 
+    It is a React Netflix clone that uses axios to fetch data from the TMDB API. Site URL / Demo: 
     <a href="https://react-github-finder-api.netlify.app/login">https://react-github-finder-api.netlify.app/login</a>
     <br />
     <br />
@@ -25,7 +25,7 @@
 Dependencies defined in package.json:
 
 [Reactjs](https://reactjs.org/)
-[Firebase](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi_3Y6tyIP5AhVpbm8EHTooBrMYABAAGgJqZg&ohost=www.google.com&cid=CAESbOD2sEBtLRYRr1hApPTSVOQWO3ugcNMcJsqtgL8IXiF0moos9h9S0KYC-wbX5JnLeDUgprpjrScGX0yF4jc1sZUkiI4ud5372w3hj0zmXigszcsZlZlwdzlcG01yb1tlXeEBPrLv4ecARYjLYg&sig=AOD64_0AZtsdkpdk5lLWuhjn1cCN40BKjA&q&adurl&ved=2ahUKEwj_s4WtyIP5AhWnomoFHf2ZAJEQ0Qx6BAgFEAE)
+<!-- [Firebase](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi_3Y6tyIP5AhVpbm8EHTooBrMYABAAGgJqZg&ohost=www.google.com&cid=CAESbOD2sEBtLRYRr1hApPTSVOQWO3ugcNMcJsqtgL8IXiF0moos9h9S0KYC-wbX5JnLeDUgprpjrScGX0yF4jc1sZUkiI4ud5372w3hj0zmXigszcsZlZlwdzlcG01yb1tlXeEBPrLv4ecARYjLYg&sig=AOD64_0AZtsdkpdk5lLWuhjn1cCN40BKjA&q&adurl&ved=2ahUKEwj_s4WtyIP5AhWnomoFHf2ZAJEQ0Qx6BAgFEAE) -->
 <!-- | [Bootstrap](https://getbootstrap.com/) -->
 <!-- | [Typist](https://github.com/jstejada/react-typist) -->
 <!-- | [GitHub API](https://developer.github.com/v3/repos/) -->
