@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h1 align="center">Github API User Finder ✨</h1>
+  <h1 align="center">Netflix TMBD API Clone ✨</h1>
 
   <p align="center">
     It is a React Netflix clone that uses axios to fetch data from the TMDB API. Site URL / Demo: 
